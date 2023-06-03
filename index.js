@@ -33,11 +33,11 @@ if (output2 === 1){
 } 
 
 if (output1 > output2) {
-    document.querySelector(".winner").textContent = "Player 1 WIN";
+    document.querySelector(".winner").textContent = "Перемога гравця N1";
 } else if (output1 < output2) {
-    document.querySelector(".winner").textContent = "Player 2 WIN";
+    document.querySelector(".winner").textContent = "Перемога гравця N2";
 } else {
-    document.querySelector(".winner").textContent = " Same Score ";
+    document.querySelector(".winner").textContent = " Нічия ";
 }
 
 
