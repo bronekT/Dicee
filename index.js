@@ -37,7 +37,7 @@ if (output1 > output2) {
 } else if (output1 < output2) {
     document.querySelector(".winner").textContent = "Перемога гравця N2";
 } else {
-    document.querySelector(".winner").textContent = "............Нічия.";
+    document.querySelector(".winner").textContent = "Перемогла дружба🥳";
 }
 
 
